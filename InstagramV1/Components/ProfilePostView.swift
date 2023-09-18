@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct PostUIComponent: View {
+struct ProfilePostView: View {
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
         NavigationView(){
             VStack(){
@@ -50,14 +51,28 @@ struct PostUIComponent: View {
                     Divider()
                 }
             }
-        }
+        }.navigationBarItems(
+            leading: HStack {
+                Button(action: {
+                    self.presentationMode.wrappedValue.dismiss()
+                }) {
+                    Image(systemName: "chevron.backward").resizable().foregroundColor(Color.black)
+                        .font(.title).frame(width: 10,height: 20)
+                }
+                Text("post")
+                    .font(.headline)
+            },
+            trailing: HStack {
+               Text("S.h.r.i.j.i")
+            }
+        ).navigationBarBackButtonHidden(true).padding(EdgeInsets(top: 10, leading: 0, bottom: 0, trailing: 0))
 
         }
     }
 
 
-struct PostUIComponent_Previews: PreviewProvider {
+struct ProfilePostView_Previews: PreviewProvider {
     static var previews: some View {
-        PostUIComponent()
+        ProfilePostView()
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0F04642AB7D26D001ABE7A /* ProfilePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0F04632AB7D26D001ABE7A /* ProfilePostView.swift */; };
 		0A43CBBE2AB5486F001A5E06 /* DancingScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A43CBBA2AB5486F001A5E06 /* DancingScript-Bold.ttf */; };
 		0A43CBBF2AB5486F001A5E06 /* DancingScript-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A43CBBB2AB5486F001A5E06 /* DancingScript-SemiBold.ttf */; };
 		0A43CBC02AB5486F001A5E06 /* DancingScript-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A43CBBC2AB5486F001A5E06 /* DancingScript-Medium.ttf */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A0F04632AB7D26D001ABE7A /* ProfilePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostView.swift; sourceTree = "<group>"; };
 		0A43CBBA2AB5486F001A5E06 /* DancingScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Bold.ttf"; sourceTree = "<group>"; };
 		0A43CBBB2AB5486F001A5E06 /* DancingScript-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-SemiBold.ttf"; sourceTree = "<group>"; };
 		0A43CBBC2AB5486F001A5E06 /* DancingScript-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DancingScript-Medium.ttf"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				0AB7D5292AB3C51100AF64EB /* ProfileComponent.swift */,
 				0AB7D52C2AB3C5CC00AF64EB /* PostUIComponent.swift */,
 				0AB7D52E2AB3CA7900AF64EB /* MyProfileCompomonent.swift */,
+				0A0F04632AB7D26D001ABE7A /* ProfilePostView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				0AB858692AB353D1007D19FB /* InstagramV1App.swift in Sources */,
 				0AB7D52A2AB3C51100AF64EB /* ProfileComponent.swift in Sources */,
 				0AB7D5272AB3C43400AF64EB /* ProfileView.swift in Sources */,
+				0A0F04642AB7D26D001ABE7A /* ProfilePostView.swift in Sources */,
 				0AB7D52F2AB3CA7900AF64EB /* MyProfileCompomonent.swift in Sources */,
 				0AB7D5232AB3C3EF00AF64EB /* ExploreView.swift in Sources */,
 				0AB7D52D2AB3C5CC00AF64EB /* PostUIComponent.swift in Sources */,
